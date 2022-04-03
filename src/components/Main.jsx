@@ -1,8 +1,15 @@
 import React from 'react';
+import MainPage from './MainContent/MainPage';
+import TypesOfCleaning from './MainContent/TypesOfCleaning';
+import CalendarListPage from './MainContent/CalendarListPage';
 
 function Main() {
   return (
-    <div>Main</div>
+      <>
+    <div><MainPage/></div>
+    <div><TypesOfCleaning/></div>
+    <div><CalendarListPage/></div>
+    </>
   )
 }
 

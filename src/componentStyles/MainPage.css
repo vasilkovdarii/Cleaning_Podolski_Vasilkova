@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     position: relative;
-    background-color: #8da3e5;
+    background-color: rgb(140, 162, 228);
 }
 
 .text{
@@ -20,7 +20,7 @@ h1{
     border-radius: 30px;
     border: 2px solid transparent;
     background: #FFFFFF;
-    color: #8da3e5;
+    color: #6583df;
     font-weight: bold;
     font-size: 21px;
     letter-spacing: 1px;

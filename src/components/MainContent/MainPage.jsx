@@ -1,12 +1,12 @@
 import React from "react";
 import "../../componentStyles/MainPage.css";
-import styled from 'styled-components';
 import Woman from "..//..//img/Group_239.png";
-
+import Background from "..//..//img/background.png";
 
 function MainPage() {
   return (
     <div className="main-page">
+      <div className="text">
       <h2 style={{color:"#FFD836"}}>always clean</h2>
       <h1 style={{color:"#6882EF"}}>HOME & OFFICE</h1>
       <span style={{margin_top: "40px"}}>
@@ -20,25 +20,12 @@ function MainPage() {
       </span>
       <br />
       <button type="button" className="btn-book">Book now</button>
+      </div>
+      {/* <img className="background" src={Background} alt="background" />
+      <img className="woman" src={Woman} alt="woman"/> */}
     </div>
   );
 }
 
 export default MainPage;
 
-const Background = styled.div`    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-position: top -120px right 0px;
-    background-repeat: no-repeat;
-    background-image: url('/img/background.png');
-`
-
-const Woman = styled.div`
-    width: 55%;
-    height: calc(100vh - 120px);
-    background-position: top 50px right 100px;;
-    background-repeat: no-repeat;
-    background-image: url('../img/Group 239.svg');
-    `

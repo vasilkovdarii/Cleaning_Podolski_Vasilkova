@@ -17,7 +17,9 @@ export default function Footer() {
 
             <div className="footer-websites">
                 <a href="https://instagram.com/seva_gretchko?utm_medium=copy_link">
-                    <img className="icon-contact" src={inst_logo} />
+                    <img className="icon-contact"
+                    id="inst"
+                     src={inst_logo} />
                 </a>
                 <a href="https://www.facebook.com/profile.php?id=100059381994346">
                     <img

@@ -6,12 +6,16 @@
 }
 
 .footer {
-     display: flex; 
+    display: flex;
     justify-content: space-between;
     background-color: rgb(140, 162, 228);
     padding: 1em 2em 0em 2em; 
     bottom: 0;
     left: 0;
+}
+
+#inst{
+    margin-bottom: 1.4em; 
 }
 
 #facebook {
@@ -23,8 +27,13 @@
     height: 4em;
     width: 4em;
     border-radius: 0%;
+    margin-bottom: 1.4em;
 }
 
 .adress{
     padding: 1em 0;
+}
+
+.adress p{
+    color: white;
 }

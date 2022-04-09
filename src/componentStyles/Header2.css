@@ -1,0 +1,35 @@
+.header2{
+    display: flex;
+    direction: column;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 1em 1em; 
+
+}
+
+.logo img{
+    width: 10em;
+    height: auto;
+}
+
+.menu{
+    display: flex;
+    direction: column;
+    justify-content: space-between;
+    gap: 1em;
+    color: #593D3D;
+    font: normal normal bold 18px/21px Raleway;
+    opacity: 1;
+    align-items: center;
+}
+
+.butSignUp{
+    border-color: white;
+    color: white;
+    border:solid 2px;
+    border-radius: 5em;
+    background-color: transparent;
+    opacity: 1;
+    padding: 0.5em 0.5em;
+    margin: 1em 0 1em 0;
+}

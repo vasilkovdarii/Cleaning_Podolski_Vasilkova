@@ -1,0 +1,22 @@
+.main-page{
+    width: 350px;
+    padding-top: 60px;
+    margin-left: 140px;
+}
+
+h1{
+    margin-top: -20px;
+}
+
+.btn-book{
+    padding: 15px 60px;  
+    border-radius: 30px;
+    border: 2px solid transparent;
+    background: transparent linear-gradient(90deg, #8DA3FF 0%, #6781EF 100%) 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    cursor: pointer;
+}

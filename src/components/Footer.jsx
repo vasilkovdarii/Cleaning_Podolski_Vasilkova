@@ -13,7 +13,7 @@ export default function Footer() {
                     Tel-Aviv, Israel <br />
                     0587236129
                 </p>
-            </div>
+            </div> 
 
             <div className="footer-websites">
                 <a href="https://instagram.com/seva_gretchko?utm_medium=copy_link">
